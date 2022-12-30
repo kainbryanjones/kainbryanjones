@@ -7,7 +7,7 @@ function App() {
       <div style={{
         height:"100vh",
         width: "100vw",
-        backgroundColor: "salmon",
+        backgroundColor: "grey",
         display: "flex",
         justifyContent: "space-evenly",
         alignItems: "left",
@@ -15,8 +15,11 @@ function App() {
         
       }}>
         <div style={{maxWidth:"100%",
-                    backgroundColor:"lightsalmon",
-                    padding:"1.5%"
+                    backgroundColor:"aliceblue",
+                    border: '5px solid lightblue',
+                    padding:"1.5%",
+                    borderRadius:"0% 0% 15% 15%",
+                    boxShadow:"0px 2px 8px 0px black"
       }}>
           <img
             src={"https://media.licdn.com/dms/image/D4D03AQH8LWTcO42vDw/profile-displayphoto-shrink_800_800/0/1665586590062?e=1677715200&v=beta&t=JkMAsNzIfoPOXvSu-MOzpVyLGIHVQ88uMrzEM6IO8O0"}
