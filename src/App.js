@@ -43,14 +43,14 @@ function App() {
         <div className='menu-index'>
           <ul>
             <li>
-              Frontend development
+              Web development
               <ul>
                 <li>
                   <a href="https://www.halogensband.com">"Halogens" Website</a>
                 </li>
               </ul>
             </li>
-            <li>Music
+            <li>Music Production
               <ul>
                 <li>
                   <a href="https://www.youtube.com/playlist?list=PLT0QgQf0TBxEGjlBJ1yWk-iuxF3mjkVgh">"Captain Mercy" Album</a>
@@ -65,7 +65,7 @@ function App() {
               </ul>
             </li>
             <li>
-              Audio Plugins
+              C++
               <ul>
               <li>
               <a href="https://github.com/kainbryanjones/Mercy">"Mercy" JUCE project</a>
