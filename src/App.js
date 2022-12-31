@@ -5,22 +5,21 @@ function App() {
   return (
     <div className="App">
       <div style={{
-        height:"100vh",
-        width: "100vw",
         backgroundColor: "grey",
         display: "flex",
         justifyContent: "space-evenly",
         alignItems: "left",
         flexWrap: "wrap",
-        
+
       }}>
-        <div style={{maxWidth:"100%",
-                    backgroundColor:"aliceblue",
-                    border: '5px solid lightblue',
-                    padding:"1.5%",
-                    borderRadius:"0% 0% 15% 15%",
-                    boxShadow:"0px 2px 8px 0px black"
-      }}>
+        <div style={{
+          maxWidth: "100%",
+          backgroundColor: "aliceblue",
+          border: '5px solid lightblue',
+          padding: "1.5%",
+          borderRadius: "0% 0% 15% 15%",
+          boxShadow: "0px 2px 8px 0px black"
+        }}>
           <img
             src={"https://media.licdn.com/dms/image/D4D03AQH8LWTcO42vDw/profile-displayphoto-shrink_800_800/0/1665586590062?e=1677715200&v=beta&t=JkMAsNzIfoPOXvSu-MOzpVyLGIHVQ88uMrzEM6IO8O0"}
             style={{
@@ -31,34 +30,47 @@ function App() {
         </div>
         <div>
           <h1>Kain Bryan-Jones</h1>
-          <div style={{
-            fontFamily:"initial",
-               }}>
-          <p>
-            Enthusiastic frontend development with skills in application development, music production and animation. Looking to get my foot in the door of the music software industry.<br/>
-            As a young musician myself, I have experience within the world of music production including the tools used to help facilitate it. With this personal experience and my background in software development, I have a strong desire to build quality products to assist other musicians in their own journey, whether they want to be a casual four-chord player or a professional multi-instrumentalist.
-          </p>
-          <p>
-            This website is a work in progress while I make it look prettier.
-          </p>
-          </div>
+          <main>
+            <div className='main-content'>
+              <p>
+                Enthusiastic frontend development with skills in application development, music production and animation. Looking to get my foot in the door of the music software industry.<br />
+                As a young musician myself, I have experience within the world of music production including the tools used to help facilitate it. With this personal experience and my background in software development, I have a strong desire to build quality products to assist other musicians in their own journey, whether they want to be a casual four-chord player or a professional multi-instrumentalist.
+              </p>
+              <p>
+                This website is a work in progress while I make it look prettier.
+              </p>
+            </div>
+          </main>
         </div>
         <div className='menu-index'>
           <ul>
-            <li>Projects
+            <li>
+              Frontend development
               <ul>
                 <li>
-                  <a href="www.halogensband.com">Halogens Website</a>
+                  <a href="https://www.halogensband.com">Halogens Website</a>
                 </li>
+              </ul>
+            </li>
+            <li>Music
+              <ul>
                 <li>
-                  <a href="">Captain Mercy Album</a>
+                  <a href="https://www.youtube.com/playlist?list=PLT0QgQf0TBxEGjlBJ1yWk-iuxF3mjkVgh">Captain Mercy Album</a>
                 </li>
-                <li>
-                  <a href="https://www.youtube.com/watch?v=jcC4XfAb8ZM">Motorbike Official Visualiser</a>
-                </li>
-                <li>
-                  <a href="https://github.com/kainbryanjones/Mercy">Mercy</a>
-                </li>
+              </ul>
+            </li>
+            <li>
+              Animation
+              <ul>
+              <li><a href="https://www.youtube.com/watch?v=jcC4XfAb8ZM">Motorbike Official Visualiser</a></li>
+              </ul>
+            </li>
+            <li>
+              Audio Plugins
+              <ul>
+              <li>
+              <a href="https://github.com/kainbryanjones/Mercy">Mercy</a>
+              </li>
               </ul>
             </li>
             <li><a href="/cv.pdf">CV</a></li>

@@ -42,19 +42,39 @@
 
 .menu-index a{
   color: white;
+  text-decoration: none;
 }
 
 .menu-index a:hover{
   color: lightgray;
 }
 
+.menu-index ul li{
+  font-size: larger;
+}
 
+.menu-index ul li li{
+  font-size: large;
+}
+
+.main-content{
+  font-family:initial;
+  padding-left:10%;
+  padding-right:10%;
+}
+
+@media only screen and (max-width :600px){
+  .main-content{
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+}
 
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
-  to {
+  to { 
     transform: rotate(360deg);
   }
 }
