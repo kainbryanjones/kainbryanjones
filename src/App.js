@@ -30,7 +30,7 @@ function App() {
         </div>
         <div>
           <h1>Kain Bryan-Jones</h1>
-          <h2>(website work in progress)</h2>
+          <h4>(website work in progress)</h4>
           <main>
             <div className='main-content'>
               <p>
