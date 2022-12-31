@@ -52,10 +52,14 @@
 .menu-index ul li{
   font-size: larger;
   list-style-type: none;
+  text-align: center;
 }
 
 .menu-index ul li li{
   font-size: large;
+  font-family:initial;
+  list-style-type: disc;
+  text-align: left;
 }
 
 .main-content{

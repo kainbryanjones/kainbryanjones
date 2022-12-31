@@ -60,7 +60,8 @@ function App() {
             <li>
               Animation
               <ul>
-              <li><a href="https://www.youtube.com/watch?v=jcC4XfAb8ZM">Motorbike Official Visualiser</a></li>
+              <li><a href="https://www.youtube.com/watch?v=jcC4XfAb8ZM">"Motorbike" Official Visualiser</a></li>
+              <li><a href="https://www.youtube.com/@halogensband">"Hypochondria" Official Visualiser(Releases 27th January)</a></li>
               </ul>
             </li>
             <li>
