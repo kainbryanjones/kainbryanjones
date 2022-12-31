@@ -30,6 +30,7 @@ function App() {
         </div>
         <div>
           <h1>Kain Bryan-Jones</h1>
+          <h2>(website work in progress)</h2>
           <main>
             <div className='main-content'>
               <p>
