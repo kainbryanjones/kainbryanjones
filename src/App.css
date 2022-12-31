@@ -51,6 +51,7 @@
 
 .menu-index ul li{
   font-size: larger;
+  list-style-type: none;
 }
 
 .menu-index ul li li{
