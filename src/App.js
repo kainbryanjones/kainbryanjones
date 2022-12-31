@@ -46,14 +46,14 @@ function App() {
               Frontend development
               <ul>
                 <li>
-                  <a href="https://www.halogensband.com">Halogens Website</a>
+                  <a href="https://www.halogensband.com">"Halogens" Website</a>
                 </li>
               </ul>
             </li>
             <li>Music
               <ul>
                 <li>
-                  <a href="https://www.youtube.com/playlist?list=PLT0QgQf0TBxEGjlBJ1yWk-iuxF3mjkVgh">Captain Mercy Album</a>
+                  <a href="https://www.youtube.com/playlist?list=PLT0QgQf0TBxEGjlBJ1yWk-iuxF3mjkVgh">"Captain Mercy" Album</a>
                 </li>
               </ul>
             </li>
@@ -68,7 +68,7 @@ function App() {
               Audio Plugins
               <ul>
               <li>
-              <a href="https://github.com/kainbryanjones/Mercy">Mercy</a>
+              <a href="https://github.com/kainbryanjones/Mercy">"Mercy" JUCE project</a>
               </li>
               </ul>
             </li>
