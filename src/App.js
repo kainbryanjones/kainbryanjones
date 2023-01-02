@@ -5,7 +5,9 @@ function App() {
   return (
     <div className="App">
       <div style={{
-        backgroundColor: "grey",
+        minWidth:"100vw",
+        minHeight:"100vh",
+        backgroundColor: "DarkSlateGray",
         display: "flex",
         justifyContent: "space-evenly",
         alignItems: "left",
@@ -30,12 +32,11 @@ function App() {
         </div>
         <div>
           <h1>Kain Bryan-Jones</h1>
-          <h4>(website work in progress)</h4>
           <main>
             <div className='main-content'>
-              <p>
+              <p style={{textIndent:'75px'}}>
                 Enthusiastic frontend developer with skills in application development, music production and animation. Looking to get my foot in the door of the music software industry.<br />
-                As a young musician myself, I have experience within the world of music production including the tools used to help facilitate it. With this personal experience and my background in software development, I have a strong desire to build quality products to assist other musicians in their own journey, whether they want to be a casual four-chord player or a professional multi-instrumentalist.
+                As a young musician myself, I have experience within the world of music production including the tools used to help facilitate it. <br/>With this personal experience and my background in software development, I have a strong desire to build quality products to assist other musicians in their own journey, whether they want to be a casual four-chord player or a professional multi-instrumentalist.
               </p>
             </div>
           </main>
