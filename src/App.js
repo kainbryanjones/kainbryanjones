@@ -14,6 +14,7 @@ function App() {
         flexWrap: "wrap",
 
       }}/>
+  </div>
   );
 }
 
