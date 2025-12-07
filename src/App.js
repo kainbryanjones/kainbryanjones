@@ -4,31 +4,42 @@ import './App.css';
 function App() {
   const hour = new Date().getHours();
 
-  // Example: map hour to a gradient color
   const getColorByHour = (h) => {
-    if (h >= 6 && h < 12) return "#FFD700"; // morning - gold
-    if (h >= 12 && h < 18) return "#00BFFF"; // afternoon - deep sky blue
-    if (h >= 18 && h < 21) return "#FF4500"; // evening - orange red
-    return "#2F4F4F"; // night - dark slate gray
+    if (h >= 6 && h < 12) return "#FFD700";
+    if (h >= 12 && h < 18) return "#00BFFF";
+    if (h >= 18 && h < 21) return "#FF4500";
+    return "#2F4F4F";
   };
 
   const startColor = getColorByHour(hour);
+  const isDay = hour >= 6 && hour < 18;
 
   return (
     <>
       <div
         style={{
-          minWidth: "100vw",
-          minHeight: "100vh",
-          background: `linear-gradient(270deg, ${startColor}, #7fffd4, ${startColor})`,
-          backgroundSize: "600% 600%",
-          animation: "gradientAnimation 10s ease infinite",
+          width: "100vw",
+          height: "100vh",
+          background: isDay ? "#ffffff" : "#000000",
           display: "flex",
-          justifyContent: "space-evenly",
-          alignItems: "flex-start",
-          flexWrap: "wrap",
+          justifyContent: "center",
+          alignItems: "center"
         }}
-      />
+      >
+        <div
+          style={{
+            width: "50vw",
+            height: "50vw",
+            maxWidth: "50%",
+            maxHeight: "50%",
+            borderRadius: "50%",
+            background: `linear-gradient(270deg, ${startColor}, #7fffd4, ${startColor})`,
+            backgroundSize: "600% 600%",
+            animation: "gradientAnimation 10s ease infinite"
+          }}
+        />
+      </div>
+
       <style>
         {`
           @keyframes gradientAnimation {
