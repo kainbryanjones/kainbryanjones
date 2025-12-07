@@ -30,9 +30,9 @@ function App() {
           style={{
             width: "50vw",
             height: "50vw",
-            maxWidth: "50%",
-            maxHeight: "50%",
-            borderRadius: "50%",
+            maxWidth: "50vw",
+            maxHeight: "50vw",
+            borderRadius: "100%",
             background: `linear-gradient(270deg, ${startColor}, #7fffd4, ${startColor})`,
             backgroundSize: "600% 600%",
             animation: "gradientAnimation 10s ease infinite"
